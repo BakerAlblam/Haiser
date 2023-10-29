@@ -118,7 +118,7 @@ const Form = () => {
               <Select
             items={carBrands}
             id="marke"
-            color="warning"
+            color="primary"
             variant="bordered"
             fullWidth
             label="Marke"
@@ -142,7 +142,7 @@ const Form = () => {
               size="md"
               isClearable
               variant="bordered"
-              color="warning"
+              color="primary"
               fullWidth
               isRequired
               label="Modell"
@@ -155,7 +155,7 @@ const Form = () => {
               <Select
             items={years}
             id="erstzulassung"
-            color="warning"
+            color="primary"
             variant="bordered"
             fullWidth
             label="Erstzulassung"
@@ -177,7 +177,7 @@ const Form = () => {
               size="md"
               isClearable
               variant="bordered"
-              color="warning"
+              color="primary"
               fullWidth
               isRequired
               label="Aktueller Kilometerstand"
@@ -188,7 +188,7 @@ const Form = () => {
             <Select
             items={antrieb}
             id="antrieb"
-            color="warning"
+            color="primary"
             variant="bordered"
             fullWidth
             label="Antrieb"
@@ -206,7 +206,7 @@ const Form = () => {
             className='mt-3'
             items={fahrzeugzustand}
             id="fahrzeugzustand"
-            color="warning"
+            color="primary"
             variant="bordered"
             fullWidth
             label="Fahrzeugzustand"
@@ -227,7 +227,7 @@ const Form = () => {
               size="md"
               isClearable
               variant="bordered"
-              color="warning"
+              color="primary"
               fullWidth
               isRequired
               label="PS"
@@ -268,7 +268,7 @@ const Form = () => {
               size="md"
               isClearable
               variant="bordered"
-              color="warning"
+              color="primary"
               fullWidth
               isRequired
               label="Telefon"
@@ -283,7 +283,7 @@ const Form = () => {
               size="md"
               isClearable
               variant="bordered"
-              color="warning"
+              color="primary"
               fullWidth
               isRequired
               label="PLZ"
@@ -299,7 +299,7 @@ const Form = () => {
               size="md"
               isClearable
               variant="bordered"
-              color="warning"
+              color="primary"
               fullWidth
               isRequired
               label="Email"
