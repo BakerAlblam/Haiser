@@ -93,14 +93,14 @@ const Form = () => {
 
 
   return (
-    <div className="container mx-auto">
+    <div className="">
     <div className="flex justify-center px-6 my-12">
       <div className="w-full xl:w-3/4 lg:w-11/12 flex">
         <div
-          className="w-full h-auto bg-gray-400 hidden lg:block lg:w-6/12 bg-cover rounded-l-lg"
+          className="w-full h-full bg-gray-400 hidden lg:block lg:w-6/12 bg-cover rounded-l-lg"
           style={{
             backgroundImage:
-              "url('https://www.leaseplan.com/-/media/leaseplan-digital/int/business/images/car-spotlight-pages/audi/a6-e-tron/audia6etronback-sunset-1-large.jpeg?iar=0&rev=-1&mw=1300')",
+              "url('https://wallpaperaccess.com/full/3323518.jpg')",
           }}
         ></div>
 
