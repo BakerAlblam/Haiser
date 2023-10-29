@@ -106,7 +106,7 @@ const Form = () => {
 
         <div className="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
           <h1 className="pt-4 text-4xl text-center">Auto verkaufen</h1>
-          <h3 className="pt-4 text-xl text-center text-clip">
+          <h3 className="pt-4 text-xl text-clip overflow-hidden text-left ml-3.5">
             Seit 2016 bieten wir hier direkt unkomplizierte und schnelle
             Autokäufe an. Vertrauen Sie uns, wenn Sie Ihr Auto einfach und
             reibungslos verkaufen möchten.
