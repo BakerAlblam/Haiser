@@ -25,7 +25,7 @@ const Admin = () => {
     const { data } = useQuery({
         queryKey: ['contact'],
         queryFn: async () => {
-          const res = await axios.get('http://localhost:3000/api/all')
+          const res = await axios.get('/api/all')
           console.log(res.data.contacts);
           return res.data.contacts
         }  
