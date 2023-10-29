@@ -15,6 +15,10 @@ const ContactSchema =  new Schema(
       price: String,
       telefon: String,
       plz: String,
+      tidStamp: {
+        type: Date,
+        default: Date.now,
+    },
     },
   
   );

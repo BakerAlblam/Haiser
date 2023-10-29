@@ -239,10 +239,12 @@ const Form = () => {
               <RadioGroup
               size='sm'
       label="Treibstoff"
+      {...register('getriebe')}
     >
-      <Radio value="Benzin">Benzin</Radio>
+      <Radio required value="Benzin">Benzin</Radio>
       <Radio value="Diesel">Diesel</Radio>
       <Radio value="Elektro">Elektro</Radio>
+      
     </RadioGroup>
 
               </div>
