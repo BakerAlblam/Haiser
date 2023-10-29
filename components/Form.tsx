@@ -106,7 +106,7 @@ const Form = () => {
 
         <div className="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
           <h1 className="pt-4 text-4xl text-center">Auto verkaufen</h1>
-          <h3 className="pt-4 text-xl text-center">
+          <h3 className="pt-4 text-xl text-center text-clip">
             Seit 2016 bieten wir hier direkt unkomplizierte und schnelle
             Autokäufe an. Vertrauen Sie uns, wenn Sie Ihr Auto einfach und
             reibungslos verkaufen möchten.
@@ -135,7 +135,7 @@ const Form = () => {
             </Select>
 
               </div>
-              <div className="w-full md:w-1/2 md:pl-2">
+              <div className="w-full md:w-1/2 md:pl-2 mt-3 md:mt-0 lg:mt-0">
               <Input
               type="text"
               id="modell"
@@ -170,7 +170,7 @@ const Form = () => {
             
             </Select>
               </div>
-              <div className="w-full md:w-1/2 md:pl-2">
+              <div className="w-full md:w-1/2 md:pl-2 mt-3 md:mt-0 lg:mt-0">
               <Input
               type="text"
               id="kilometerstand"
@@ -235,8 +235,9 @@ const Form = () => {
             />
              
              <div className="mb-4 md:flex md:justify-between mt-3">
-              <div className="w-full md:w-1/2 md:pr-2">
+              <div className="w-full md:w-1/2 md:pr-2 mt-3 md:mt-0 lg:mt-0">
               <RadioGroup
+              className='mt-3 md:mt-0 lg:mt-0'
               size='sm'
       label="Treibstoff"
       {...register('getriebe')}
